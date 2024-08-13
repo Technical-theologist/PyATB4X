@@ -1,0 +1,1 @@
+print("Hi can you separate it","with this text",sep="$",end="*")

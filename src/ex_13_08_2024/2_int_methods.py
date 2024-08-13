@@ -1,0 +1,7 @@
+num1=int(input())
+num2=int(input())
+num3=int(input())
+maximum_sol=max(num1,num2,num3)
+minimum_sol=min(num1, num2, num3)
+print(maximum_sol,minimum_sol)
+print("the sum of max and min no is "f"{format(maximum_sol+minimum_sol)}")
