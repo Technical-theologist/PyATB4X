@@ -1,3 +1,5 @@
+# Taks 1
+
 table=9
 print("Multiplication table of",table)
 print(f"{table}*1={table*1}")
@@ -14,7 +16,7 @@ print(f"{table}*10={table*10}")
 
 for i in range(1,10+1):
     print(f"{table}*{i}={table*i}")
-
+# Task2
 """diff functions under the int 
 sum(),*,/,-,pow(),
 To round the values you can use the .f function"""
@@ -29,6 +31,31 @@ print(x*y)
 print(x/y)
 print(pow(x,y))
 print(f"{quotient:3f}")
+print(2**3)
+print(x^y)
+
+# Task 3
+""""
+a)Diff b/w the = operator and == operator
+    The main diff b/w the = and == is assignment operator and the comparison operator
+    int x=10(you are assigning the integer of x variable for 10
+    "if(x==y)
+        print(x+y)"
+    here we are comparing if x=y then print x+y
+b)what does the ** operator do in python and how it is used
+    it is used to do power of a number 
+    ex- print(2**2) =o/p- 4
+        print(2**3) =o/p- 8
+c) what does the ^ operator do in python and what does it commonly used for
+    it split the number into its binary form
+    and the ^ operator is used to do the swapping of the numbers
+    let say  x=10 and y=20
+    x=x^y
+    y=x^y
+    x=x^y
+    now the value of x=20 and y=10
+    """
+
 
 
 
